@@ -9,3 +9,25 @@ h1 {
 .gray{
     background-color: rgb(182, 179, 179);
 }
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #a9afba;
+	background:linear-gradient(to bottom, #cccccc 5%, #696969 100%);
+	background-color:#cccccc;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-weight:bold;
+	padding:6px 20px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #696969 5%, #cccccc 100%);
+	background-color:#696969;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
