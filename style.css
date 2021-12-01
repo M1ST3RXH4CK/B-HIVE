@@ -15,14 +15,14 @@ h1{
     background-color: #BF8F2F;
 	display: flex;
 	justify-content: space-between;
-	padding: 30px 10%;
+	padding: 10px 10%;
 }
 
 header{
     background-color: rgb(47, 47, 49);
 	display: flex;
 	justify-content: space-between;
-	padding: 30px 10%;
+	padding: 10px 10%;
 }
 
 .nav__links{
@@ -42,4 +42,15 @@ header{
 .nav__links li a:hover{
 	color: #BF8F2F;
 	cursor: pointer;
+}
+
+img{
+	transition: width 1s;
+	position: absolute;
+	top: 90px; right: 40px;
+	width: 500px;
+}
+img:hover{
+	width: 525px
+	
 }
